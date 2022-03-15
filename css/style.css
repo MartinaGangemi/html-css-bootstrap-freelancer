@@ -1,0 +1,10 @@
+.debug{
+    background-color: palevioletred;
+    height: 70px;
+    border: solid 1px white;
+}
+
+.debug2{
+    background-color: aquamarine;
+    height: 500px;
+}
