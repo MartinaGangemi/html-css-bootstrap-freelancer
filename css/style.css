@@ -14,3 +14,11 @@
     height: 200px;
     border: solid white 1px;
 }
+
+.bg_menu{
+    background-color: #2C3E50;
+}
+
+.row_menu{
+    height: 70px;
+}
