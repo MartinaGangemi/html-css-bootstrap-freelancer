@@ -22,3 +22,12 @@
 .row_menu{
     height: 70px;
 }
+
+.avatar_box{
+    max-width: 250px;
+    max-height: 250px;
+}
+
+.profile{
+    background-color: #1ABC9C;
+}
