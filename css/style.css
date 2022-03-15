@@ -8,3 +8,9 @@
     background-color: aquamarine;
     height: 500px;
 }
+
+.debug_card{
+    background-color: royalblue;
+    height: 200px;
+    border: solid white 1px;
+}
