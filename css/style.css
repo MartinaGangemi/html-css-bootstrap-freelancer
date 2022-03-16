@@ -4,22 +4,11 @@
     border: solid 1px white;
 }
 
-.debug2{
-    background-color: aquamarine;
-    height: 500px;
-}
-
-.debug_card{
-    background-color: royalblue;
-    height: 200px;
-    border: solid white 1px;
-}
-
 .bg_menu{
     background-color: #2C3E50;
 }
 
-.row_menu{
+.header_nav{
     height: 70px;
 }
 
@@ -30,4 +19,12 @@
 
 .profile{
     background-color: #1ABC9C;
+}
+
+.about{
+    background-color: #1ABC9C;
+}
+
+.bg_footer{
+    background-color: #3A546D;
 }

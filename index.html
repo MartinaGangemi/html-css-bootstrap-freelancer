@@ -19,11 +19,10 @@
   <body>
     <header>
         
-
         <!-- menu -->
         <div class="bg_menu">
             <div class="container">
-                <div class=" row_menu row row-cols-sm-2 align-items-center">
+                <div class=" header_nav row row-cols-sm-2 align-items-center">
                     <div class="col">
                         <div class="fw-bold text-light fs-5">START BOOTSTRAP</div>
                     </div>
@@ -153,20 +152,40 @@
         </div>
 
         <!-- about -->
-        <div class="debug2 mt-5 d-flex align-items-center">
+        <div class="debug2 mt-5 d-flex align-items-center about">
             <div class="container">
-                <div class="row row-cols-sm-12">
-                    <div class="col-md-12 debug">
-
+                <div class="row row-cols-sm-12 text-light gy-4 mt-5" >
+                    <h2 class="text-center text-light">ABOUT</h2>
+                    <div class="col-md-12">
+                        <!-- star -->
+                        <div class="my-3 row justify-content-center align-items-center text-light">
+                            <div class="col-2 tex">
+                                <div class="border-top border-3 border-light"></div>
+                            </div>
+                            <div class="col-1  text-center p-0"> 
+                                <span class=" fs-4">
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </div>
+                            <div class="col-2">
+                                <div class="border-top border-3 border-light"></div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-md-6 debug">
 
+                    <!-- left col -->
+                    <div class="col-md-6">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita mollitia nostrum blanditiis. Veniam ex vel dicta voluptatem veritatis placeat corporis laudantium quam? Quam nostrum eius nam, dolorum odio eligendi porro?
                     </div>
-                    <div class="col-md-6 debug">
-
+                    <!-- right -->
+                    <div class="col-md-6">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate tenetur itaque neque doloribus error maxime. Autem, eos cumque laborum soluta explicabo, officia, consequuntur sapiente neque laboriosam tempora placeat quaerat doloribus!
                     </div>
-                    <div class="col-md-12 debug">
-
+                    <!-- download btn -->
+                    <div class="col-md-12 text-center my-5">
+                        <button type="button" class="btn btn-outline-light">
+                            <i class="fa-solid fa-download"></i> Download
+                        </button>
                     </div>
 
                 </div>
@@ -176,20 +195,76 @@
         <!-- contact me -->
 
         <div class="container mt-5">
-            <div class="row debug"></div>
-            <div class="row debug2"></div>
-            <div class="row debug"></div>
+            <h2 class="text-center text-dark">CONTACT ME</h2>
+            <div class="row">
+                 <!-- star -->
+                 <div class="my-3 row justify-content-center align-items-center text-dark">
+                    <div class="col-2">
+                        <div class="border-top border-3 border-dark"></div>
+                    </div>
+                    <div class="col-1  text-center p-0"> 
+                        <span class=" fs-4">
+                            <i class="fa-solid fa-star"></i>
+                        </span>
+                    </div>
+                    <div class="col-2">
+                        <div class="border-top border-3 border-dark"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- Form -->
+            <div class="row">
+                <!-- Name Form -->
+                <div class="form-group ">
+                    <label for="staticEmail2" class="sr-only">Name</label>
+                    <input type="email"  class="form-control-plaintext " placeholder="Name">
+                </div>
+                <hr class="mt-3">
+                <!-- Email Form -->
+                <div class="form-group ">
+                    <label for="staticEmail2" class="sr-only">Email</label>
+                    <input type="email"  class="form-control-plaintext"  placeholder="Email Adress">
+                </div>
+                <hr class="mt-3">
+                <!-- Phone Number -->
+                <div class="form-group ">
+                    <label for="staticEmail2" class="sr-only">Phone Number</label>
+                    <input type="text"  class="form-control-plaintext"  placeholder="Phone Number">
+                </div>
+                <hr class="mt-3">
+                <!-- text area -->
+                <div class="form-group">
+                    <label for="static" class="sr-only">Example textarea</label>
+                    <textarea class="form-control-plaintext" id="exampleFormControlTextarea1" rows="5" placeholder="Message"></textarea>
+                </div>
+                <hr>
+            </div>
+
+            <div class="row">
+                <div class="col-2 ">
+                    <button type="button" class="btn about text-light fs-5">Send</button>
+                </div>
+            </div>
+            
         </div>
 
         <!-- footer -->
 
         <footer>
-            <div class="bg-dark">
+            <div class="bg_footer">
                 <div class="container">
-                    <div class="p-5 mt-5 row row-cols-sm-12">
-                        <div class="col-md-4 debug"></div>
-                        <div class="col-md-4 debug"></div>
-                        <div class="col-md-4 debug"></div>
+                    <div class="p-5 mt-5 row row-cols-sm-12 gy-4">
+                        <div class="col-md-4 text-center text-light">
+                            <h6>LOCATION</h6>
+                             <p>Lorem ipsum dolor sit amet.</p>
+                             <span>Lorem, ipsum dolor.</span>
+                        </div>
+                        <div class="col-md-4 text-center text-light">
+                            <h6>AROUND THE WEB</h6>
+                        </div>
+                        <div class="col-md-4 text-center text-light">
+                            <h6>ABOUT FREELANCER</h6>
+                        </div>
                     </div>
                 </div>
             </div>
