@@ -28,3 +28,13 @@
 .bg_footer{
     background-color: #3A546D;
 }
+
+.px_6{
+    padding-left: 6rem;
+    padding-right: 6rem;
+
+}
+
+.br_0{
+    border-radius: 0px;
+}
