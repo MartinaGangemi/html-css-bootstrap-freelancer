@@ -51,7 +51,7 @@
     </header>
 
         <!-- Profile -->
-        <div class="profile">
+        <div class="light_green">
             <div class="container">
                 <div class="row">
                     <div class="col-12 py-5">
@@ -152,9 +152,9 @@
         </div>
 
         <!-- about -->
-        <div class="mt-5 d-flex align-items-center about">
+        <div class="mt-5 d-flex align-items-center light_green fs-5">
             <div class="container">
-                <div class="row row-cols-sm-12 text-light gy-4 mt-5 px_6" >
+                <div class="row row-cols-sm-12 text-light gy-4 mt-5 px-5" >
                     
                     <div class="col-md-12">
                         <h2 class="text-center text-light">ABOUT</h2>
@@ -175,7 +175,7 @@
                     </div>
 
                     <!-- left col -->
-                    <div class="col-md-6">
+                    <div class="col-md-6 me-0">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita mollitia nostrum blanditiis. Veniam ex vel dicta voluptatem veritatis placeat corporis laudantium quam? Quam nostrum eius nam, dolorum odio eligendi porro?
                     </div>
                     <!-- right -->
@@ -195,7 +195,7 @@
 
         <!-- contact me -->
 
-        <div class="container mt-5 px_7">
+        <div class="container mt-5 px_6">
             <h2 class="text-center text-dark">CONTACT ME</h2>
             <div class="row">
                  <!-- star -->
@@ -217,8 +217,8 @@
             <div class="row">
                 <!-- Name Form -->
                 <div class="form-group ">
-                    <label for="staticEmail2" class="sr-only">Name</label>
-                    <input type="email"  class="form-control border-0 border-bottom br_0 shadow-none py-3" placeholder="Name">
+                    <label for="name" class="sr-only">Name</label>
+                    <input type="name"  class="form-control border-0 border-bottom br_0 shadow-none py-3 " placeholder="Name">
                 </div>
             
                 <!-- Email Form -->
@@ -228,7 +228,7 @@
                 </div>
                 <!-- Phone Number -->
                 <div class="form-group ">
-                    <label for="staticEmail2" class="sr-only">Phone Number</label>
+                    <label for="phone" class="sr-only">Phone Number</label>
                     <input type="text"  class="form-control border-0 border-bottom br_0 shadow-none py-3"  placeholder="Phone Number">
                 </div>
                
@@ -242,7 +242,7 @@
 
             <div class="row mt-2">
                 <div class="col-2 ">
-                    <button type="button" class="btn about text-light fs-5">Send</button>
+                    <button type="button" class="btn light_green about text-light fs-5">Send</button>
                 </div>
             </div>
             
@@ -253,48 +253,57 @@
         <footer>
             <div class="bg_footer">
                 <div class="container">
-                    <div class="p-5 mt-5 row row-cols-sm-12 gy-4">
-                        <div class="col-md-4 text-center text-light">
-                            <h6>LOCATION</h6>
-                             <p>Lorem ipsum dolor sit amet.</p>
-                             <span>Lorem, ipsum dolor.</span>
+                    <div class="p-5 mt-5 row row-cols-sm-12 gy-4 text-light fs-5">
+                        <div class="col-md-4 text-center ">
+                            <h5>LOCATION</h5>
+                             <p class="mt-4 ">
+                                 2215 John Daniel Drive Clark, MO
+                                 <br>
+                                 54243
+                            </p>
                         </div>
-                        <div class="col-md-4 text-center text-light">
-                            <h6>AROUND THE WEB</h6>
-                            <!-- facebook -->
-                            <span>
-                                <i class="fa-brands fa-facebook-f"></i>
-                            </span>
-                            <!-- Google -->
-                            <span>
-                                <i class="fa-brands fa-google-plus-g"></i>
-                            </span>
-                            <!-- Twitter -->
-                            <span>
-                                <i class="fa-brands fa-twitter"></i>
-                            </span>
-                            <!-- Linkedin -->
-                            <span>
-                                <i class="fa-brands fa-linkedin-in"></i>
-                            </span>
+                        <div class="col-md-4 text-center px_6">
+                            <h5>AROUND THE WEB</h5>
+                            
+                            <div class="row mt-4"> 
+                                <!-- facebook -->
+                                <div class="col-3">
+                                    <div class="border rounded-circle fs-5 text-center icon_circle py-2">
+                                        <i class="fa-brands fa-facebook-f "></i>
+                                    </div>
+                                </div>
+                                <!-- Google -->
+                                <div class="col-3">
+                                    <div class="border rounded-circle fs-5 text-center icon_circle  py-2">
+                                        <i class="fa-brands fa-google-plus-g"></i>
+                                    </div>
+                                </div>
+                                <!-- Twitter -->
+                                <div class="col-3">
+                                    <div class="border rounded-circle fs-5 text-center icon_circle  py-2">
+                                        <i class="fa-brands fa-twitter"></i>
+                                    </div>
+                                </div>
+                                <!-- Linkedin -->
+                                <div class="col-3">
+                                    <div class="border rounded-circle fs-5 text-center icon_circle  py-2">
+                                        <i class="fa-brands fa-linkedin-in"></i>
+                                    </div>
+                                </div>
+                            
+                            </div>
                         </div>
-                        <div class="col-md-4 text-center text-light">
-                            <h6>ABOUT FREELANCER</h6>
+                        <div class="col-md-4 text-center">
+                            <h5>ABOUT FREELANCER</h5>
+                            <p>Freelance is a free to use, open source Bootstrap theme created by <span class="text_footer">Start Bootstrap</span>.</p>
                         </div>
                     </div>
                 </div>
             </div>
             <!-- copyright -->
-            <div class="bg-success">
-                <div class="col-12 p-4 text-center">°L°</div>
-
+            <div class="bg2_footer">
+                <div class="col-12 p-4 text-center text-light">Copyright <i class="fa fa-copyright" aria-hidden="true"></i> your website 2019</div>
             </div>
-
         </footer>
-
-      
-    
-
-    
-  </body>
+    </body>
 </html>

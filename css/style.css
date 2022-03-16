@@ -1,11 +1,12 @@
-.debug{
-    background-color: palevioletred;
-    height: 70px;
-    border: solid 1px white;
+:root{
+    --background-menu: #2C3E50;
+    --light-green: #1ABC9C;
+    --bg_footer: #3A546D;
+    --bg2_footer: #2C3E50;
 }
 
 .bg_menu{
-    background-color: #2C3E50;
+    background-color: var(--background-menu);
 }
 
 .header_nav{
@@ -17,30 +18,37 @@
     max-height: 250px;
 }
 
-.profile{
-    background-color: #1ABC9C;
+.light_green{
+    background-color: var(--light-green);
 }
 
-.about{
-    background-color: #1ABC9C;
-}
 
 .bg_footer{
-    background-color: #3A546D;
+    background-color: var(--bg_footer);
+}
+
+.bg2_footer{
+    background-color: var(--bg2_footer);
 }
 
 .px_6{
     padding-left: 6rem;
     padding-right: 6rem;
-
-}
-
-.px_7{
-    padding-left: 7rem;
-    padding-right: 7rem;
-
 }
 
 .br_0{
     border-radius: 0px;
 }
+
+.icon_circle{
+    width: 50px;
+    height: 50px;
+}
+
+.text_footer{
+    color: #1ABC9C;
+}
+
+.form-control::-webkit-input-placeholder {
+    color: black;
+  }
